@@ -1,8 +1,8 @@
-# SmartRent KH
+# Smart RentHouse
 
 **The end of the monthly staircase for Cambodian landlords.**
 
-SmartRent KH is a community rental management web app built for small, independent Cambodian landlords managing multi-unit buildings. It replaces the manual routine of climbing stairs to read utility meters, calculating bills by hand, and chasing payment screenshots in a chat app — with a shared, digital ledger for every room, renter, and payment.
+Smart RentHouse is a community rental management web app built for small, independent Cambodian landlords managing multi-unit buildings. It replaces the manual routine of climbing stairs to read utility meters, calculating bills by hand, and chasing payment screenshots in a chat app — with a shared, digital ledger for every room, renter, and payment.
 
 This repository contains the frontend prototype: a React + TypeScript single-page app exported from Figma Make, running entirely client-side against a mock local database.
 
@@ -13,7 +13,7 @@ Cambodian rental billing is uniquely staggered — each tenant's rent is due on 
 - **Enterprise property software** is expensive and built for large corporations.
 - **WhatsApp + paper ledgers** are free but have no calculation engine and no permanent record.
 
-SmartRent KH aims to sit in between: affordable, purpose-built for the way meters, dates, and QR payments actually work in Cambodia, and usable without an accounting background.
+Smart RentHouse aims to sit in between: affordable, purpose-built for the way meters, dates, and QR payments actually work in Cambodia, and usable without an accounting background.
 
 ## Core features (this prototype)
 
@@ -26,7 +26,7 @@ SmartRent KH aims to sit in between: affordable, purpose-built for the way meter
 - **Maintenance requests** — renters can submit issues (plumbing, electrical, structural, etc.); landlords see and track them.
 - **History** — renters can view their own usage and payment history.
 
-Some capabilities described in the product vision (`SmartRent_KH_Digital_Blueprint.md`) — such as AI-based OCR meter reading with a confidence threshold, AI bank-receipt matching, anomaly detection on usage spikes, and smart parking scheduling — are represented in this codebase as simulated/mocked behavior (e.g. `simulateOCR` in `src/app/pages/renter/Meter.tsx`) rather than real AI integrations, since this is a frontend-only prototype.
+Some capabilities described in the original product vision doc (`SmartRent_KH_Digital_Blueprint.md`) — such as AI-based OCR meter reading with a confidence threshold, AI bank-receipt matching, anomaly detection on usage spikes, and smart parking scheduling — are represented in this codebase as simulated/mocked behavior (e.g. `simulateOCR` in `src/app/pages/renter/Meter.tsx`) rather than real AI integrations, since this is a frontend-only prototype.
 
 ## Tech stack
 
